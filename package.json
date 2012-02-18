@@ -11,7 +11,7 @@
     "node": ">=0.4.0 < 0.7.0"
   },
   "dependencies": {
-	ntwitter":">0.2.10"
+	"ntwitter":">0.2.10"
 	},
   "devDependencies": {},
   "optionalDependencies": {}
