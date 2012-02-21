@@ -19,6 +19,5 @@ var twit = ImmortalNTwitter.create({
          console.log('immortalData ' + data);
        });         
    });
-
 ```
 
