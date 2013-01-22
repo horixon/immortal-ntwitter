@@ -1,6 +1,6 @@
 ##immortal-ntwitter
 
-Ntwitter that reconnects following twitter [stream concepts](https://dev.twitter.com/docs/streaming-api/concepts).
+[Ntwitter](https://github.com/AvianFlu/ntwitter) that reconnects following twitter [stream concepts](https://dev.twitter.com/docs/streaming-apis/connecting).
 
 ###Usage
 ``` 
