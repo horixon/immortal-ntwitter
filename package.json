@@ -2,17 +2,17 @@
   "author": "horixon",
   "name": "immortal-ntwitter",
   "description": "reconnecting ntwitter stream",
-  "version": "0.0.4",
+  "version": "0.0.9",
   "repository": {
     "url": ""
   },
   "main": "./lib/immortal-ntwitter",
   "engines": {
-    "node": ">=0.4.0 <= 0.8.14"
+    "node": ">=0.4.0 <= 0.10.9"
   },
   "dependencies": {
 	"ntwitter":"git://github.com/horixon/ntwitter.git#master",
-	"mocha":"1.7.4"	
+	"mocha":"1.10.0"	
   },
   "devDependencies": {},
   "optionalDependencies": {}
