@@ -44,11 +44,10 @@ describe('ImmortalNTwitter', function(){
 					done();
 					return null;
 				}
-					
 				
 				mockStream.emit('error', null);	
 		    })
-		    it.skip('should resurrect on an http error', function(done){
+		    it('should resurrect on an http error', function(done){
 		    	
 		    	this.timeout(10001);
 		    	twit.immortalStream('statuses/sample', null, function(immortalStream) {});
@@ -56,7 +55,6 @@ describe('ImmortalNTwitter', function(){
 					done();
 					return null;
 				}
-
 				
 				mockStream.emit('error', 'http');	
 		    })
@@ -73,7 +71,6 @@ describe('ImmortalNTwitter', function(){
 		    	twit.immortalStream('statuses/sample', null, function(immortalStream) {});
 				twit.stream(null, null,function(){done()}) ;
 					
-				
 				mockStream.emit('end', null);	
 		    })
 
@@ -99,7 +96,6 @@ describe('ImmortalNTwitter', function(){
 					if(reconnects > 2)
 					{
 						done();
-						return;
 					}
 					callback(mockStream);
 					mockStream.emit('error',null);
@@ -107,12 +103,9 @@ describe('ImmortalNTwitter', function(){
 					return mockStream;
 				}
 
-
 				twit.immortalStream('statuses/sample', null, function(immortalStream) {});
 		    })
 
 		  })
 	})
 });
-
-//https://github.com/AvianFlu/ntwitter/issues/20#issuecomment-4793546
