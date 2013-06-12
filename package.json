@@ -8,7 +8,7 @@
   },
   "main": "./lib/immortal-ntwitter",
   "engines": {
-    "node": ">=0.4.0 <= 0.10.9"
+    "node": ">=0.4.0 <= 0.10.10"
   },
   "dependencies": {
 	"ntwitter":"git://github.com/horixon/ntwitter.git#master",
