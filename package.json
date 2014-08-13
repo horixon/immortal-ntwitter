@@ -2,13 +2,13 @@
   "author": "horixon",
   "name": "immortal-ntwitter",
   "description": "reconnecting ntwitter stream",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "repository": {
     "url": ""
   },
   "main": "./lib/immortal-ntwitter",
   "engines": {
-    "node": ">=0.4.0 <= 0.10.10"
+    "node": ">=0.4.0"
   },
   "dependencies": {
 	"ntwitter":"git://github.com/horixon/ntwitter.git#master",
